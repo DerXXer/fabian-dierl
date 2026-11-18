@@ -98,5 +98,5 @@
 
   // Ticker: auf schmalen Schirmen läuft das Band, dafür wird es einmal verdoppelt
   const band = $('.ticker__band');
-  if (band && !ruhig && matchMedia('(max-width: 1100px)').matches) band.innerHTML += band.innerHTML.replace(/<p>/g, '<p aria-hidden="true">');
+  if (band && !ruhig && matchMedia('(max-width: 1600px)').matches) band.innerHTML += band.innerHTML.replace(/<p>/g, '<p aria-hidden="true">');
 })();
